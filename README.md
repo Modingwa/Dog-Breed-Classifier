@@ -12,10 +12,13 @@ This project is also featured on the Medium website @ [link](https://medium.com/
 * [Instructions on running the application](#instructions-on-running-the-application)
 
 ## Summary of the results
-The algorithm uses a pre-trained InceptionV3 CNN to predict the image of a given dog within a reasonable level of accuracy.The model achieves an accuracy of around 78% in classifying 133 dog breeds. 
-When given an image path the algorithm returns results in this format:
-![Classification Results #1](./images/dog_1.png)
-![Classification Results #2](./images/dog_2.png)
+The algorithm uses a pre-trained InceptionV3 CNN to predict the image of a given dog within a reasonable level of accuracy.The model achieves an accuracy of around 78% in classifying 133 dog breeds.  When given an image path the algorithm returns results in this format:
+* ![Classification Results#1](./images/dog_1.PNG)
+* ![Classification Results#2](./images/dog_2.PNG)
+
+Below is an architecture of the custom CNN that was developed during the project.
+
+![Custom CNN](./images/customcnn.png)
 ## Data and Code
 * The main application is contained in the dog_app.ipynb jupyter notebook. All the functions and code, as well as the rationale behind decisions taken is contained in this notebook.
 * Test images are in the images folder in the root directory.
